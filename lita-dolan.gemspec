@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-dolan"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Joel Cogen"]
   spec.email         = ["joel@redilio.us"]
   spec.description   = %q{A Lita handler for Dolan comics}

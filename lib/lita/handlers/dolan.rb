@@ -3,7 +3,7 @@ require "lita"
 module Lita
   module Handlers
     class Dolan < Handler
-      route(/dolan/, :dolan, help: { "dolan" => "Get an dolan comik frum redit" })
+      route(/\Adolan\z/, :dolan, command: true, help: { "dolan" => "Get an dolan comik frum redit" })
 
       def dolan(response)
         response.reply(DOLANS.sample)
